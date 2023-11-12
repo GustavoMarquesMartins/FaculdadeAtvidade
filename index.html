@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompartilhaBem</title>
+    <!-- Links de importação do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <img class="logo" src="./logoSite.png" alt="">
+        <h1>CompartilhaBem</h1>
+        <p class="lead">Um lugar para fazer a diferença</p>
+    </header>
+
+    <section id="causa" class="container my-4">
+        <h2>Nossa Causa</h2>
+        <p>acreditamos apaixonadamente que pequenas ações podem desencadear grandes mudanças. Nosso propósito é criar um
+            espaço digital que inspire, informe e motive a ação benevolente. Queremos ser uma ponte entre corações
+            generosos e oportunidades tangíveis de fazer a diferença. Este site é nossa maneira de unir pessoas em torno
+            de uma causa comum: criar um impacto positivo e duradouro nas vidas daqueles que mais precisam. Juntos,
+            buscamos construir um mundo onde a compaixão seja a linguagem predominante e onde cada gesto de bondade
+            conta uma história de esperança.</p>
+    </section>
+
+    <section id="doacoes" class="bg-light container my-4 p-4">
+        <h2>Faça Sua Doação</h2>
+        <p>Serão enviados para o seu e-mail todos os dados que serão necessários para realizar a doação.</p>
+
+        <form id="doacaoForm">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="valor">Valor da Doação (R$):</label>
+                <input type="number" class="form-control" id="valor" name="valor" min="1" required>
+            </div>
+
+            <button type="button" class="btn btn-primary" onclick="processarDoacao()">Doar Agora</button>
+        </form>
+    </section>
+
+    <section id="historias" class="container my-4">
+        <h2>Histórias Inspiradoras</h2>
+
+        <!DOCTYPE html>
+        <html lang="pt-br">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Histórias de Inspiração</title>
+            <!-- Adicione aqui seus links de importação do Bootstrap ou outros estilos -->
+        </head>
+
+        <body>
+
+            <details>
+                <summary>Ler mais</summary>
+                <section>
+                    <h2>Menina pede para distribuir quentinhas a moradores de rua no seu aniversário de 8 anos</h2>
+                    <p>A menina Adrielly, do Rio de Janeiro, pediu aos seus pais para entregar quentinhas a pessoas em
+                        situação de rua no seu aniversário de 8 anos. Foi o único “presente” que ela quis ganhar numa
+                        data
+                        tão especial.</p>
+                    <p>A mãe, Luciana Machado, conta que no início não levou muito a sério o pedido da filha. Mas
+                        conforme o
+                        aniversário se aproximava, “ela continuava falando que queria sair para distribuir quentinhas
+                        para
+                        pessoas que não tinham o que comer”.</p>
+                    <p>Leia a história completa <a href="link_para_a_historia_1" target="_blank">clicando aqui</a>.</p>
+                </section>
+
+                <section>
+                    <h2>Gugu Liberato ‘permanecerá vivo’ em até 50 pessoas com doação de órgãos</h2>
+                    <p>A morte do apresentador Gugu Liberato causou enorme tristeza. Ainda em vida, ele expressou sua
+                        vontade de doar órgãos e assim será! Seu desejo pode beneficiar até 50 pessoas.</p>
+                    <p>Leia a história completa <a href="link_para_a_historia_2" target="_blank">clicando aqui</a>.</p>
+                </section>
+
+                <section>
+                    <h2>“Tinder da doação de sangue” conecta doadores a quem precisa</h2>
+                    <p>A Partiu Doar Sangue é uma plataforma que conecta bancos de sangue a doadores. Os doadores se
+                        cadastram e são notificados quando é feito um pedido de doação no sistema.</p>
+                    <p>Leia a história completa <a href="link_para_a_historia_3" target="_blank">clicando aqui</a>.</p>
+                </section>
+
+                <section>
+                    <h2>Adolescente usa 13º salário para realizar pedidos de Natal de crianças carentes</h2>
+                    <p>A adolescente Maria Eduarda, 16 anos, usou a primeira parcela do seu 13º salário de jovem
+                        aprendiz
+                        para realizar pedidos de Natal de duas crianças carentes, em Caldas Novas (GO).</p>
+                    <p>O pagamento era exatamente o mesmo valor de uma bota que Duda ‘namorava’ há algum tempo. Mas ela
+                        deu
+                        prioridade ao sonho daquelas crianças!</p>
+                    <p>Leia a história completa <a href="link_para_a_historia_4" target="_blank">clicando aqui</a>.</p>
+                </section>
+
+                <section>
+                    <h2>Aluna doa sapato e se ajoelha para calçar pés da coleguinha</h2>
+                    <p>A professora Mary Moraes compartilhou um lindo relato no Facebook sobre uma cena que presenciou
+                        na
+                        sala de aula, em Cruzeiro do Sul (AC).</p>
+                    <p>Isabela, uma aluna do 2º ano do ensino fundamental, apareceu na sala de Mary (que dá aulas para
+                        crianças do 1º ano) e pediu permissão para falar:</p>
+                    <p>“Eu queria fazer uma doação desse lindo sapato que é número 27 [pois] eu já estou calçando 28.”
+                    </p>
+                    <p>Uma aluna levantou a mão e disse que calçava o mesmo tamanho. Isabela foi até ela, mostrou seu
+                        sapato
+                        e se ajoelhou. Então, ela colocou o calçado no pé da coleguinha e ficou super contente em
+                        perceber
+                        que ele havia se encaixado perfeitamente. ?</p>
+                    <p>Leia a história completa <a href="link_para_a_historia_5" target="_blank">clicando aqui</a>.</p>
+                </section>
+
+                <section>
+                    <h2>Menina de 9 anos ensina vendedor de picolé de 68 a ler e escrever no Ceará</h2>
+                    <p>Francisco Santa Filho, de 68 anos, é o retrato dos numerosos e profundos contrastes sociais
+                        brasileiros.</p>
+                    <p>O idoso trabalha como vendedor de picolé há mais de meio século (começou aos 12 anos) em frente
+                        ao
+                        Colégio Diocesano, no município de Crato (CE).</p>
+                    <p>Passou grande de sua vida analfabeto, mas com a ajuda de uma jovem e dedicada “professora”,
+                        Zezinho
+                        ganhou mais intimidade com as letras.</p>
+                    <p>Leia a história completa <a href="link_para_a_historia_6" target="_blank">clicando aqui</a>.</p>
+                </section>
+
+                <section>
+                    <h2>Ex-morador de rua, cabeleireiro oferece cortes gratuitos a pessoas carentes</h2>
+                    <p>Rafael Soares da Câmara morou nas ruas de São Paulo por quatro anos até ser acolhido por um casal
+                        de
+                        cabeleireiros. Com a oportunidade, deixou as ruas, adquiriu as habilidades de cabeleireiro e
+                        abriu
+                        um salão próprio em Penápolis (SP).</p>
+                    <p>Em agradecimento aos pais, hoje, Rafael oferece cortes de cabelo gratuitos a pessoas em situação
+                        de
+                        rua. “É uma forma de retribuir toda ajuda que tive quando pequeno. Eu sei como é ter vontade de
+                        comer algo, de se arrumar, de fazer qualquer coisa, mas não ter dinheiro para isso”, ressalta.
+                    </p>
+                    <p>Leia a história completa <a href="link_para_a_historia_6" target="_blank">clicando aqui</a>.</p>
+
+                </section>
+            </details>
+
+
+            <footer class="bg-dark text-white text-center py-3">
+                <p>&copy; 2023 CompartilhaBem. Todos os direitos reservados.</p>
+            </footer>
+
+            <!-- Links de importação do Bootstrap JS e Popper.js (necessários para alguns recursos do Bootstrap) -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+            <script>
+                function processarDoacao() {
+                    // Lógica de processamento de doação (pode ser adicionada posteriormente)
+                    alert('Doação processada com sucesso! Obrigado pela sua contribuição.');
+                }
+            </script>
+        </body>
+
+        </html>
